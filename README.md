@@ -1,45 +1,24 @@
-This is my personal portfolio website. [Danish Saleem](https://mrdanishsaleem.vercel.app/)
+<h1>
+    Welcome to my Portfolio
+</h1>
 
-## Features
+> Note: This is a portfolio template, feel free to use it. And star it if you liked :P
 
-- **Home** - Resume & Tech Stack
-- **About** - Working Experience & Education
-- **Projects** - Github Repos & Medium Articles
-- **Contact** - Drop me an email! ✉️
+![demo](./public/assests/docs/demo.png)
 
-## Built with
+✨ [Live Demo](https://anurag.tech)
 
-- [NextJS](https://nextjs.org/)
-- [Chakra UI](https://chakra-ui.com)
-- [Framer Motion](https://www.framer.com/motion/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+### Using the template
 
-## Screens
+To use this template, read and follow the steps given in the [Using Guide](./USING.md)
 
-![screen1](/screenshot/screen1.png)
-![screen2](/screenshot/screen2.png)
-![screen3](/screenshot/screen3.png)
-![screen4](/screenshot/screen4.png)
+### Author
 
-## Setup ENV
+😊 Anurag
 
-- Create `.env` file at the root of project
+- [Portfolio](https://anurag.tech)
+- [Github](https://github.com/kr-anurag)
+- [Twitter](https://twitter.com/kr_anurag_)
+- [Blog](https://blog.anurag.tech)
 
-```
-GITHUB_USERNAME=XXX
-MEDIUM_USERNAME=XXX
-NEXT_PUBLIC_SPOTIFY_CLIENT_ID=XXX
-NEXT_PUBLIC_SPOTIFY_CLIENT_SECRET=XXX
-NEXT_PUBLIC_SPOTIFY_REFRESH_TOKEN=XXX
-```
-
-- Run `yarn` and `yarn dev` and you're ready to go!
-- To setup Spotify API key, refer to [this article](https://dev.to/theodorusclarence/how-to-show-now-playing-in-spotify-with-next-js-15h5)
-
-## Reference
-
-Since I am beginner in ReactJS, I took reference to some of the awesome developers in the community and hereby credited to all of them!
-
-- [Ma-Ahmad](https://github.com/MA-Ahmad/portfolio)
-- [Meera.dev](https://github.com/meerbahadin/meera.dev)
-- [How to show Now Playing in Spotify with Next.js](https://dev.to/theodorusclarence/how-to-show-now-playing-in-spotify-with-next-js-15h5)
+Give a star ⭐ to show your support :P
