@@ -34,10 +34,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         title="Anurag | Frontend Developer"
         titleTemplate="Anurag | Frontend Developer"
         defaultTitle="Anurag | Frontend Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        description="Hey! I'm Danish, A Full Stack Software Engineer, Blogger and a Night Owl!"
         openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
+          url: "https://www.mrdanishsaleem.vercel.app/",
+          title: "Danish | Software Engineer",
           description:
             "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
           images: [
