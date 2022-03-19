@@ -14,7 +14,7 @@ const About = () => {
 
         <p className="mt-4 text-gray-400">
           Building Websites, Web apps, proficient in full stack development.
-          Writing articles <br /> on my blog sometimes.
+          Writing articles <br /> on dev.to sometimes.
         </p>
 
         <Link href="https://dev.to/mrdanishsaleem/" passHref>
@@ -23,7 +23,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Read my Blog
+            Read my articles
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
