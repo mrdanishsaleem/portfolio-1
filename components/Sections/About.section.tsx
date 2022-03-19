@@ -5,21 +5,21 @@ import { HiOutlineArrowNarrowRight } from "../Misc/Icons.collection";
 
 const About = () => {
   return (
-    <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
+    <div className="font-sen my-8 flex flex-row items-center justify-between px-3">
       <div>
-        <p className="text-3xl font-bold text-white">Anurag</p>
+        <p className="text-3xl font-bold text-white">Hi, I am Danish</p>
         <p className="mt-1 text-lg text-gray-300">
-          Frontend Developer, Blogger and a Student
+          A Software Engineer, Blogger and a Night Owl!
         </p>
 
         <p className="mt-4 text-gray-400">
-          Building Web apps, proficient in Frontend. Writing articles <br /> on
-          my blog sometimes.
+          Building Websites, Web apps, proficient in full stack development.
+          Writing articles <br /> on my blog sometimes.
         </p>
 
-        <Link href="https://blog.anurag.tech" passHref>
+        <Link href="https://dev.to/mrdanishsaleem/" passHref>
           <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+            className="font-jost mt-4 flex cursor-pointer flex-row items-center gap-1 text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -28,9 +28,9 @@ const About = () => {
           </a>
         </Link>
 
-        <Link href="https://sponsor.anurag.tech" passHref>
+        <Link href="https://www.buymeacoffee.com/mrdanishsaleem" passHref>
           <a
-            className="mt-4 flex cursor-pointer flex-row items-center gap-1 font-jost text-xl text-gray-400 duration-100 hover:ml-2"
+            className="font-jost mt-4 flex cursor-pointer flex-row items-center gap-1 text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -40,7 +40,7 @@ const About = () => {
         </Link>
       </div>
 
-      <div className="hidden custom:block">
+      <div className="custom:block hidden">
         <Image
           src="/assests/avatar.png"
           width="112"
