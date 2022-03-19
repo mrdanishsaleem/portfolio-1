@@ -15,10 +15,7 @@ const Projects: React.FC = () => {
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">Junaid Umer</p>
-              <p>
-                An open-source portfolio built in ReactJS and proudly hosted on
-                Netlify.
-              </p>
+              <p>Open-source portfolio website</p>
             </div>
           </a>
         </Link>
@@ -44,52 +41,38 @@ const Projects: React.FC = () => {
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">Blessed Couples</p>
-              <p>
-                A match-making service with a whole new concept of going about
-                marriage the unconventional way!
-              </p>
+              <p>Match making service with a new idea!</p>
             </div>
           </a>
         </Link>
 
-        <Link href="https://github.com/avneesh0612/Orbits-UI" passHref>
+        <Link href="https://gluconatural.com/" passHref>
           <a
             className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] p-1 text-white duration-100 hover:scale-105"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
-              <p className="text-xl font-semibold">Orbits UI</p>
-              <p>React component library built with Tailwind CSS</p>
+              <p className="text-xl font-semibold">Gluco Natural</p>
+              <p>Natural alternate to manage your diabetes.</p>
             </div>
           </a>
         </Link>
 
-        <Link href="https://vault3.live" passHref>
+        {/* <Link href="https://www.wandrpass.com/" passHref>
           <a
             className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#D8B4FE] to-[#818CF8] p-1 text-white duration-100 hover:scale-105"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
-              <p className="text-xl font-semibold">Vault3</p>
-              <p>Your safest decentralized vault</p>
+              <p className="text-xl font-semibold">WandrPass</p>
+              <p>
+                Find the best local restaurants and access exclusive promotions!
+              </p>
             </div>
           </a>
-        </Link>
-
-        <Link href="https://github.com/avneesh0612/Orbits-UI" passHref>
-          <a
-            className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] p-1 text-white duration-100 hover:scale-105"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
-              <p className="text-xl font-semibold">Orbits UI</p>
-              <p>React component library built with Tailwind CSS</p>
-            </div>
-          </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

@@ -28,16 +28,17 @@ const Contact = () => {
 
         <Icon icon={<MdEmail />} url="mailto:danish_s@outlook.com" />
 
-        <Icon
+        {/* <Icon
           icon={<BsSpotify />}
           url="https://open.spotify.com/user/qgu3xe8fo0k432q4nu3tbfzj5"
-        />
+        /> */}
 
         <Icon
           icon={<BsStackOverflow />}
           url="https://stackoverflow.com/users/11249940/mrdanishsaleem"
         />
-        <Icon icon={<BsGoogle />} url="https://g.dev/mrdanishsaleem" />
+
+        {/* <Icon icon={<BsGoogle />} url="https://g.dev/mrdanishsaleem" /> */}
 
         <Icon
           icon={<BsSnapchat />}
