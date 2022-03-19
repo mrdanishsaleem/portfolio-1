@@ -2,6 +2,8 @@ import {
   SiFirebase,
   SiOctopusdeploy,
   SiMicrosoftoutlook,
+  SiVisualstudiocode,
+  SiMicrosoftsqlserver,
 } from "react-icons/si";
 import {
   FaReact,
@@ -38,7 +40,7 @@ const siteConfig = {
         type: "gray",
       },
       {
-        url: "https://stackoverflow.com/users/12261890/teo",
+        url: "https://stackoverflow.com/users/11249940/mrdanishsaleem",
         icon: <FaStackOverflow />,
         name: "StackOverflow",
         type: "orange",
@@ -99,6 +101,16 @@ const techStacks = [
   {
     name: "RapidAPI",
     icon: <SiOctopusdeploy fontSize="20px" />,
+    url: "https://rapidapi.com/",
+  },
+  {
+    name: "Visual Studio Code",
+    icon: <SiVisualstudiocode fontSize="20px" />,
+    url: "https://rapidapi.com/",
+  },
+  {
+    name: "Microsoft SQL Server",
+    icon: <SiMicrosoftsqlserver fontSize="20px" />,
     url: "https://rapidapi.com/",
   },
 ];

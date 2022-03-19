@@ -1,14 +1,8 @@
-import React from 'react';
-import {
-    SlideFade
-} from '@chakra-ui/react';
+import React from "react";
+import { SlideFade } from "@chakra-ui/react";
 
 const ProjectSection = () => {
-    return (
-        <SlideFade>
-            
-        </SlideFade>
-    )
-}
+  return <SlideFade></SlideFade>;
+};
 
 export default ProjectSection;

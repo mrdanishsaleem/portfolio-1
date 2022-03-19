@@ -1,45 +1,47 @@
-import React from 'react';
-import axios from 'axios';
-import moment from 'moment';
+import React from "react";
+import axios from "axios";
+import moment from "moment";
 
 const shortenDescription = (description) => {
-    const defaultContinue = " Continue reading on Medium »"
+  const defaultContinue = " Continue reading on Medium »";
 
-    description = description?.replace(/<h3>.*<\/h3>|<figcaption>.*<\/figcaption>|<[^>]*>/gm, "").substring(0, 100)
-    if (description.length <= 100 - defaultContinue.length) {
-        description += defaultContinue
-    }
-    description += "..."
+  description = description
+    ?.replace(/<h3>.*<\/h3>|<figcaption>.*<\/figcaption>|<[^>]*>/gm, "")
+    .substring(0, 100);
+  if (description.length <= 100 - defaultContinue.length) {
+    description += defaultContinue;
+  }
+  description += "...";
 
-    return description
-}
+  return description;
+};
 
 const getMediumArticles = async ({ username }) => {
-    try {
-        console.log({ username })
-        const { data } = await axios.get(
-            `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${username}`
-        )
+  try {
+    console.log({ username });
+    const { data } = await axios.get(
+      `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${username}`
+    );
 
-        let { items } = data || {}
+    let { items } = data || {};
 
-        const article = items.map(({ title, thumbnail, guid, pubDate, description, categories }) => {
-            return {
-                title: title,
-                thumbnail: thumbnail,
-                url: guid,
-                date: moment(pubDate).format("YYYY - MMM DD"),
-                description: shortenDescription(description),
-                categories: categories
-            }
-        })
+    const article = items.map(
+      ({ title, thumbnail, guid, pubDate, description, categories }) => {
+        return {
+          title: title,
+          thumbnail: thumbnail,
+          url: guid,
+          date: moment(pubDate).format("YYYY - MMM DD"),
+          description: shortenDescription(description),
+          categories: categories,
+        };
+      }
+    );
 
-        return article;
+    return article;
+  } catch (err) {
+    console.log(err);
+  }
+};
 
-
-    } catch (err) {
-        console.log(err);
-    }
-}
-
-export default getMediumArticles
+export default getMediumArticles;
