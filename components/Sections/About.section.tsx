@@ -38,6 +38,20 @@ const About = () => {
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>
+
+        <Link
+          href="https://mrdanishsaleem.notion.site/Resume-46d106ce5e9e46ae8ff9926cf4321c5b"
+          passHref
+        >
+          <a
+            className="font-jost mt-4 flex cursor-pointer flex-row items-center gap-1 text-xl text-gray-400 duration-100 hover:ml-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check my Resume!
+            <HiOutlineArrowNarrowRight />
+          </a>
+        </Link>
       </div>
 
       <div className="custom:block hidden">
