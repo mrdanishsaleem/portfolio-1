@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Projects: React.FC = () => {
   return (
-    <div className="my-16 px-3 font-sen" id="projects">
+    <div className="font-sen my-16 px-3" id="projects">
       <p className="text-3xl font-bold text-white">Featured Projects</p>
       <div className="my-8 flex flex-col items-center justify-center gap-10 sm:flex-row">
         <Link href="https://vault3.live" passHref>
@@ -13,7 +13,7 @@ const Projects: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+            <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">Vault3</p>
               <p>Your safest decentralized vault</p>
             </div>
@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
+            <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">Orbits UI</p>
               <p>React component library built with Tailwind CSS</p>
             </div>

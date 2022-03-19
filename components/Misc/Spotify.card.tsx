@@ -33,7 +33,7 @@ const SpotifyCard: FC = () => {
 
             <Link href={data?.songUrl} passHref>
               <p className="w-4/5  cursor-pointer">
-                i&apos;m currently listening to{" "}
+                Currently listening to{" "}
                 <span className=" text-white">{data?.title}</span>
                 <p>
                   by <span className=" text-white">{data?.artist}</span>
@@ -49,7 +49,7 @@ const SpotifyCard: FC = () => {
               height="20"
               alt="spotify icon"
             />
-            <p>i&apos;m currently not listening to anything</p>
+            <p>Currently not listening to anything</p>
           </>
         )}
       </div>
