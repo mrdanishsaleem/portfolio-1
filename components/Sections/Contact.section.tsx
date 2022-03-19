@@ -3,6 +3,9 @@ import {
   MdEmail,
   AiOutlineGithub,
   AiOutlineTwitter,
+  BsStackOverflow,
+  BsSnapchat,
+  BsGoogle,
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
@@ -28,6 +31,17 @@ const Contact = () => {
         <Icon
           icon={<BsSpotify />}
           url="https://open.spotify.com/user/qgu3xe8fo0k432q4nu3tbfzj5"
+        />
+
+        <Icon
+          icon={<BsStackOverflow />}
+          url="https://stackoverflow.com/users/11249940/mrdanishsaleem"
+        />
+        <Icon icon={<BsGoogle />} url="https://g.dev/mrdanishsaleem" />
+
+        <Icon
+          icon={<BsSnapchat />}
+          url="https://www.snapchat.com/add/mrdanishsaleem1"
         />
       </div>
     </div>
