@@ -1,6 +1,6 @@
 # Welcome to my Portfolio
 
-> Note: This is a portfolio template, feel free to use it. And star it if you liked :P
+> Note: This is a portfolio website, feel free to use it. And star it if you liked :P
 
 ## Author
 
