@@ -49,7 +49,7 @@ const SpotifyCard: FC = () => {
               height="20"
               alt="spotify icon"
             />
-            <p>Currently not listening to anything</p>
+            <p>Not listening to anything</p>
           </>
         )}
       </div>
