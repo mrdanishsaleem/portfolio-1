@@ -20,7 +20,7 @@ const SpotifyCard: FC = () => {
 
   return (
     <>
-      <div className="font-sen mb-8 flex flex-row items-center justify-center gap-x-2 rounded-md bg-zinc-800 px-3 py-2 text-center text-lg text-gray-300">
+      <div className="mb-8 flex flex-row items-center justify-center gap-x-2 rounded-md bg-zinc-800 px-3 py-2 text-center font-sen text-lg text-gray-300">
         {data?.isPlaying ? (
           <>
             <Image
