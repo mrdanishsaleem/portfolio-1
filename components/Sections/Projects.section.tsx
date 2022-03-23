@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
           </a>
         </Link>
 
-        {/* <Link href="https://www.wandrpass.com/" passHref>
+        <Link href="https://www.wandrpass.com/" passHref>
           <a
             className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#D8B4FE] to-[#818CF8] p-1 text-white duration-100 hover:scale-105"
             target="_blank"
@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
               </p>
             </div>
           </a>
-        </Link> */}
+        </Link>
       </div>
     </div>
   );
