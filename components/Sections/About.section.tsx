@@ -14,8 +14,7 @@ const About = () => {
 
         <p className="mt-4 text-gray-400">
           Building Websites, Web applications, proficient in full stack
-          development. <br />
-          Writing articles on dev.to sometimes.
+          development. Writing articles on <br /> dev.to sometimes.
         </p>
 
         <Link href="https://dev.to/mrdanishsaleem/" passHref>
