@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
           </a>
         </Link>
 
-        <Link href="https://gluconatural.com/" passHref>
+        {/* <Link href="https://gluconatural.com/" passHref>
           <a
             className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] p-1 text-white duration-100 hover:scale-105"
             target="_blank"
@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
               </p>
             </div>
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
