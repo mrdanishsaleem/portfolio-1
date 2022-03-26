@@ -1,7 +1,7 @@
 import { FC } from "react";
 
 import Link from "next/link";
-import { VscGithubAlt } from "../Misc/Icons.collection";
+import { FaDev } from "../Misc/Icons.collection";
 
 import type { linkProps } from "../../@types/prop.types";
 
@@ -28,14 +28,14 @@ const Header: FC = () => {
         <TextLink text="Contact" url="#contact" />
       </p>
 
-      <Link href="https://github.com/mrdanishsaleem" passHref>
+      <Link href="https://dev.to/mrdanishsaleem" passHref>
         <a
           className="float-right mr-2 rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2 sm:float-none sm:mr-0"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="github-repo"
+          aria-label="dev.to"
         >
-          <VscGithubAlt />
+          <FaDev />
         </a>
       </Link>
     </header>
