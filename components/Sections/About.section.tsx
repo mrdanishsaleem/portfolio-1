@@ -7,9 +7,9 @@ const About = () => {
   return (
     <div className="font-sen my-8 flex flex-row items-center justify-between px-3">
       <div>
-        <p className="text-3xl font-bold text-white">Hi, I am Danish</p>
+        <p className="text-3xl font-bold text-white">Hi, I am Danish Saleem</p>
         <p className="mt-1 text-lg text-gray-300">
-          A Software Engineer, Blogger and a Night Owl!
+          A Software Engineer, Writer and a Night Owl!
         </p>
 
         <p className="mt-4 text-gray-400">

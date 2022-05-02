@@ -27,8 +27,9 @@ const Header: FC = () => {
         <TextLink text="Contact" url="#contact" />
       </p>
 
-      <Link href="https://github.com/mrdanishsaleem" passHref>
+      <Link href="https://github.com/mrdanishsaleem/portfolio/" passHref>
         <a
+          href="#"
           className="float-right mr-2 rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2 sm:float-none sm:mr-0"
           target="_blank"
           rel="noopener noreferrer"

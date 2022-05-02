@@ -1,7 +1,8 @@
 import {
   BsSpotify,
   MdEmail,
-  AiOutlineGithub,
+  FaDev,
+  // FaDiscord,
   AiOutlineTwitter,
   BsStackOverflow,
   BsSnapchat,
@@ -16,22 +17,16 @@ const Contact = () => {
       <p className="text-3xl font-bold text-white">Get in touch</p>
 
       <div className="my-8 flex flex-row justify-center gap-x-4">
-        <Icon
-          icon={<AiOutlineGithub />}
-          url="https://github.com/mrdanishsaleem"
-        />
+        <Icon icon={<MdEmail />} url="mailto:danish_s@outlook.com" />
 
         <Icon
           icon={<AiOutlineTwitter />}
           url="https://twitter.com/MrDanishSaleem"
         />
 
-        <Icon icon={<MdEmail />} url="mailto:danish_s@outlook.com" />
+        <Icon icon={<FaDev />} url="https://dev.to/mrdanishsaleem" />
 
-        <Icon
-          icon={<BsSpotify />}
-          url="https://open.spotify.com/user/qgu3xe8fo0k432q4nu3tbfzj5"
-        />
+        {/* <Icon icon={<FaDiscord />} url="#" /> */}
 
         <Icon
           icon={<BsStackOverflow />}
