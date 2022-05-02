@@ -38,7 +38,7 @@ const Contact = () => {
           url="https://stackoverflow.com/users/11249940/mrdanishsaleem"
         />
 
-        {/* <Icon icon={<BsGoogle />} url="https://g.dev/mrdanishsaleem" /> */}
+        <Icon icon={<BsGoogle />} url="https://g.dev/mrdanishsaleem" />
 
         <Icon
           icon={<BsSnapchat />}
