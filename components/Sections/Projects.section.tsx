@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
             rel="noopener noreferrer"
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
-              <p className="text-xl font-semibold">Travle Website</p>
+              <p className="text-xl font-semibold">Travel Website</p>
               <p>Never stop exploring the World!</p>
             </div>
           </a>
