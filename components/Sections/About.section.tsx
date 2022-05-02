@@ -57,8 +57,8 @@ const About = () => {
       <div className="custom:block hidden">
         <Image
           src="/assests/avatar.png"
-          width="112"
-          height="112"
+          width="250"
+          height="250"
           className="rounded-full"
           alt="avatar"
         />
