@@ -28,7 +28,7 @@ const About = () => {
           </a>
         </Link>
 
-        <Link href="https://www.buymeacoffee.com/mrdanishsaleem" passHref>
+        <Link href="mailto:danish_s@outlook.com" passHref>
           <a
             className="font-jost mt-4 flex cursor-pointer flex-row items-center gap-1 text-xl text-gray-400 duration-100 hover:ml-2"
             target="_blank"
