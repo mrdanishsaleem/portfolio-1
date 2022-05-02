@@ -1,44 +1,59 @@
-const client_id = process.env.SPOTIFY_CLIENT_ID;
-const client_secret = process.env.SPOTIFY_CLIENT_SECRET;
-const refresh_token = process.env.SPOTIFY_REFRESH_TOKEN;
+import { FC, useState, useEffect } from "react";
 
-const basic = Buffer.from(`${client_id}:${client_secret}`).toString("base64");
-const NOW_PLAYING_ENDPOINT = `https://api.spotify.com/v1/me/player/currently-playing`;
-const TOP_TRACKS_ENDPOINT = `https://api.spotify.com/v1/me/top/tracks`;
-const TOKEN_ENDPOINT = `https://accounts.spotify.com/api/token`;
+import type { NowPlayingSong } from "../../@types/now-playing-song.type";
+import Image from "next/image";
+import axios from "axios";
+import Link from "next/link";
 
-const getAccessToken = async () => {
-  const response = await fetch(TOKEN_ENDPOINT, {
-    method: "POST",
-    headers: {
-      Authorization: `Basic ${basic}`,
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: new URLSearchParams({
-      grant_type: "refresh_token",
-      refresh_token,
-    }),
-  });
+const SpotifyCard: FC = () => {
+  const [data, setData] = useState<NowPlayingSong>();
+  console.log(data);
 
-  return response.json();
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await axios.get("/api/now-playing");
+      setData(res.data);
+    };
+
+    fetchData();
+  }, []);
+
+  return (
+    <>
+      <div className="mb-8 flex flex-row items-center justify-center gap-x-2 rounded-md bg-zinc-800 px-3 py-2 text-center font-sen text-lg text-gray-300">
+        {data?.isPlaying ? (
+          <>
+            <Image
+              src={data?.albumImageUrl}
+              height="50"
+              width="50"
+              className="rounded-md"
+              alt="spotfiy"
+            />
+
+            <Link href={data?.songUrl} passHref>
+              <p className="w-4/5  cursor-pointer">
+                Listening to <span className=" text-white">{data?.title}</span>
+                <p>
+                  by <span className=" text-white">{data?.artist}</span>
+                </p>
+              </p>
+            </Link>
+          </>
+        ) : (
+          <>
+            <Image
+              src="/assests/spotify.svg"
+              width="20"
+              height="20"
+              alt="spotify icon"
+            />
+            <p>Not listening to anything</p>
+          </>
+        )}
+      </div>
+    </>
+  );
 };
 
-export const getNowPlaying = async () => {
-  const { access_token } = await getAccessToken();
-
-  return fetch(NOW_PLAYING_ENDPOINT, {
-    headers: {
-      Authorization: `Bearer ${access_token}`,
-    },
-  });
-};
-
-export const getTopTracks = async () => {
-  const { access_token } = await getAccessToken();
-
-  return fetch(TOP_TRACKS_ENDPOINT, {
-    headers: {
-      Authorization: `Bearer ${access_token}`,
-    },
-  });
-};
+export default SpotifyCard;

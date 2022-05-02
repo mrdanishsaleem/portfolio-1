@@ -1,10 +1,14 @@
-import { FC } from "react";
+import type { NextComponentType, NextPageContext } from "next";
+
 import Link from "next/link";
 import { VscGithubAlt } from "../Misc/Icons.collection";
 
 import type { linkProps } from "../../@types/prop.types";
 
-const TextLink: FC<linkProps> = ({ text, url }) => {
+const TextLink: NextComponentType<NextPageContext, {}, linkProps> = ({
+  text,
+  url,
+}) => {
   return (
     <a
       href={url}
@@ -15,10 +19,10 @@ const TextLink: FC<linkProps> = ({ text, url }) => {
   );
 };
 
-const Header: FC = () => {
+const Header: NextComponentType = () => {
   return (
     <header
-      className={`py-8 font-jost sm:flex sm:flex-row sm:items-center sm:justify-between`}
+      className={`font-jost py-8 sm:flex sm:flex-row sm:items-center sm:justify-between`}
     >
       <p className="hidden sm:flex sm:flex-row sm:gap-x-4">
         <TextLink text="Home" url="#" />
@@ -27,7 +31,7 @@ const Header: FC = () => {
         <TextLink text="Contact" url="#contact" />
       </p>
 
-      <Link href="https://dev.to/mrdanishsaleem" passHref>
+      <Link href="https://github.com/kr-anurag/portfolio" passHref>
         <a
           className="float-right mr-2 rounded-lg bg-zinc-800 p-2 text-2xl text-white ring-zinc-300 transition-all duration-150 hover:ring-2 sm:float-none sm:mr-0"
           target="_blank"

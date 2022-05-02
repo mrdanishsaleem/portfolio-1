@@ -1,14 +1,24 @@
-# Welcome to my Portfolio
+<h1>
+    Welcome to my Portfolio
+</h1>
 
-> Note: This is a portfolio website, feel free to use it. And star it if you liked :P
+> Note: This is a portfolio template, feel free to use it. And star it if you liked :P
 
-## Author
+![demo](./public/assests/docs/demo.jpg)
 
-😊 Danish
+✨ [Live Demo](https://anurag.tech)
 
-- [Portfolio](https://mrdanishsaleem.vercel.app)
-- [Github](https://github.com/mrdanishsaleem)
-- [Twitter](https://twitter.com/MrDanishSaleem)
-- [Blog](https://dev.to/mrdanishsaleem)
+### Using the template
+
+To use this template, read and follow the steps given in the [Using Guide](./USING.md)
+
+### Author
+
+😊 Anurag
+
+- [Portfolio](https://anurag.tech)
+- [Github](https://github.com/kr-anurag)
+- [Twitter](https://twitter.com/imanuraglol)
+- [Blog](https://blog.anurag.tech)
 
 Give a star ⭐ to show your support :P

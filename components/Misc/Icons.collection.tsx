@@ -1,10 +1,4 @@
-import {
-  BsSpotify,
-  BsArrowRightShort,
-  BsStackOverflow,
-  BsSnapchat,
-  BsGoogle,
-} from "react-icons/bs";
+import { BsSpotify, BsArrowRightShort } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
@@ -20,7 +14,4 @@ export {
   BsArrowRightShort,
   FaDiscord,
   VscGithubAlt,
-  BsStackOverflow,
-  BsSnapchat,
-  BsGoogle,
 };

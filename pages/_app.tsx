@@ -31,34 +31,34 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="Danish | Software Engineer"
-        titleTemplate="Danish | Software Engineer"
-        defaultTitle="Danish | Software Engineer"
-        description="Hey! I'm Danish, A Full Stack Software Engineer, Blogger and a Night Owl!"
+        title="Anurag | Frontend Developer"
+        titleTemplate="Anurag | Frontend Developer"
+        defaultTitle="Anurag | Frontend Developer"
+        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
         openGraph={{
-          url: "https://www.mrdanishsaleem.vercel.app/",
-          title: "Danish | Software Engineer",
+          url: "https://www.anurag.tech/",
+          title: "Anurag | Frontend Developer",
           description:
-            "Hey! I'm Danish, A Full Stack Software Engineer, Blogger and a Night Owl!",
+            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
           images: [
             {
-              url: "#",
+              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
               width: 800,
               height: 420,
-              alt: "Danish | Software Engineer",
+              alt: "Anurag | Frontend Developer",
             },
           ],
         }}
         twitter={{
-          handle: "@MrDanishSaleem",
-          site: "@mrdanishsaleem",
+          handle: "@kr_anurag_",
+          site: "@kr_anurag_",
           cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
             property: "keywords",
             content:
-              "Software Engineer, mrdanishsaleem, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
           },
         ]}
       />
