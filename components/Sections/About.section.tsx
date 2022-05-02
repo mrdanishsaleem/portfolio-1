@@ -34,7 +34,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Love my work? Sponsor me!
+            Love my work? Hire me!
             <HiOutlineArrowNarrowRight />
           </a>
         </Link>

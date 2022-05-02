@@ -1,6 +1,6 @@
 import {
   BsSpotify,
-  MdEmail,
+  MdCoffee,
   FaDev,
   // FaDiscord,
   AiOutlineTwitter,
@@ -17,7 +17,10 @@ const Contact = () => {
       <p className="text-3xl font-bold text-white">Get in touch</p>
 
       <div className="my-8 flex flex-row justify-center gap-x-4">
-        <Icon icon={<MdEmail />} url="mailto:danish_s@outlook.com" />
+        <Icon
+          icon={<MdCoffee />}
+          url="https://www.buymeacoffee.com/mrdanishsaleem"
+        />
 
         <Icon
           icon={<AiOutlineTwitter />}
