@@ -57,7 +57,7 @@ const Skills = () => {
         <span className="text-white">NextJS</span>,{" "}
         <span className="text-white">Automation</span>,{" "}
         <span className="text-white">Databases</span>,{" "}
-        <span className="text-white">RapidAPI</span>{" "}
+        <span className="text-white">APIs</span>{" "}
       </p>
     </div>
   );
