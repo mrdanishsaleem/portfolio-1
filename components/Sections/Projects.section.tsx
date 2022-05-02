@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
         </Link>
 
         <Link href="https://web-with-video.vercel.app/" passHref>
-        <a
+          <a
             className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] p-1 text-white duration-100 hover:scale-105"
             target="_blank"
             rel="noopener noreferrer"
