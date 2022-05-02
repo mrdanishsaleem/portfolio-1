@@ -31,21 +31,21 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="Danish | Software Engineer"
-        titleTemplate="Danish | Software Engineer"
-        defaultTitle="Danish | Software Engineer"
-        description="Hey! I'm Danish, A Full Stack Software Engineer, Blogger and a Night Owl!"
+        title="Danish Saleem | Software Engineer"
+        titleTemplate="Danish Saleem | Software Engineer"
+        defaultTitle="Danish Saleem | Software Engineer"
+        description="Hey! I'm Danish Saleem, A Full Stack Software Engineer, Writer and a Night Owl!"
         openGraph={{
           url: "https://www.mrdanishsaleem.vercel.app/",
-          title: "Danish | Software Engineer",
+          title: "Danish Saleem | Software Engineer",
           description:
-            "Hey! I'm Danish, A Full Stack Software Engineer, Blogger and a Night Owl!",
+            "Hey! I'm Danish Saleem, A Full Stack Software Engineer, Wrter and a Night Owl!",
           images: [
             {
               url: "#",
               width: 800,
               height: 420,
-              alt: "Danish | Software Engineer",
+              alt: "Danish Saleem | Software Engineer",
             },
           ],
         }}
@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: "keywords",
             content:
-              "Software Engineer, mrdanishsaleem, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Software Engineer, mrdanishsaleem, Web Developer, web development, web developer, writer, tech enthusiast, open source",
           },
         ]}
       />
