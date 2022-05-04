@@ -86,6 +86,19 @@ const Projects: React.FC = () => {
             </div>
           </a>
         </Link>
+
+        <Link href="https://travel-website-teal.vercel.app/" passHref>
+          <a
+            className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#FDE68A] via-[#FCA5A5] to-[#FECACA] p-1 text-white duration-100 hover:scale-105"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
+              <p className="text-xl font-semibold">Travel Website</p>
+              <p>Never stop exploring the world!</p>
+            </div>
+          </a>
+        </Link>
       </div>
     </div>
   );
