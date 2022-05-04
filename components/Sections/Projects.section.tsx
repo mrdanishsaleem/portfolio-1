@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">Blessed Couples</p>
-              <p>A match making service!</p>
+              <p>Match making service!</p>
             </div>
           </a>
         </Link>
@@ -54,7 +54,7 @@ const Projects: React.FC = () => {
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">Dazvix</p>
-              <p>A service agency with customer satisfaction</p>
+              <p>Service agency with customer satisfaction</p>
             </div>
           </a>
         </Link>
