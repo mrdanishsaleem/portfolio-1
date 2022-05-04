@@ -13,3 +13,7 @@
 - [Buy Me a Coffe](https://www.buymeacoffee.com/mrdanishsaleem)
 
 Give a star ⭐ to show your support :P
+
+## Screenshot
+
+![Portfolio](https://github.com/mrdanishsaleem/portfolio/blob/main/public/mrdanishsaleem.png)
