@@ -14,9 +14,8 @@ const Projects: React.FC = () => {
             rel="noopener noreferrer"
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
-              {" "}
               <p className="text-xl font-semibold">Junaid Umer</p>
-              <p>Portfolio website</p>
+              <p>A Portfolio website</p>
             </div>
           </a>
         </Link>
