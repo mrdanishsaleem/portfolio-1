@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               {" "}
               <p className="text-xl font-semibold">Junaid Umer</p>
-              <p>Open-source portfolio website</p>
+              <p>Portfolio website</p>
             </div>
           </a>
         </Link>
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">Blessed Couples</p>
-              <p>Match making service!</p>
+              <p>Match making!</p>
             </div>
           </a>
         </Link>
@@ -55,7 +55,7 @@ const Projects: React.FC = () => {
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">Dazvix</p>
-              <p>Service agency with customer satisfaction</p>
+              <p>Agency with client satisfaction</p>
             </div>
           </a>
         </Link>
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
               <p className="text-xl font-semibold">WandrPass</p>
-              <p>Find the access to exclusive promotions!</p>
+              <p>Access to exclusive promotions!</p>
             </div>
           </a>
         </Link>
@@ -80,8 +80,8 @@ const Projects: React.FC = () => {
             rel="noopener noreferrer"
           >
             <div className="bg-primary flex h-full w-full flex-col items-center justify-center rounded-lg px-2 text-center font-medium">
-              <p className="text-xl font-semibold">Travel de World</p>
-              <p>Never stop exploring world!</p>
+              <p className="text-xl font-semibold">Travel World</p>
+              <p>Explore de world!</p>
             </div>
           </a>
         </Link>
