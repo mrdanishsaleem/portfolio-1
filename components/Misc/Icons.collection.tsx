@@ -18,7 +18,6 @@ export {
   AiOutlineGithub,
   HiOutlineArrowNarrowRight,
   BsArrowRightShort,
-  FaDiscord,
   FaDev,
   VscGithubAlt,
   BsStackOverflow,

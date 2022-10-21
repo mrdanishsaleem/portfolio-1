@@ -9,12 +9,13 @@ const About = () => {
       <div>
         <p className="text-3xl font-bold text-white">Hi, I am Danish Saleem</p>
         <p className="mt-1 text-lg text-gray-300">
-          A Software Engineer, Writer and a Night Owl!
+          Software Engineer, Tech Content Creator & Night Owl
         </p>
 
         <p className="mt-4 text-gray-400">
-          Building Websites, Web apps, proficient in full stack development.
-          Writing articles <br /> on dev.to sometimes.
+          I have experience working for the FinTech, Health, and Education sectors as a Software Quality Assurance Engineer.
+          <br />
+          Recently, I decided to learn full stack development and started my front-end journey.
         </p>
 
         <Link href="https://dev.to/mrdanishsaleem/" passHref>

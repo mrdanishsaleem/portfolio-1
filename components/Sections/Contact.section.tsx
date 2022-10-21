@@ -2,7 +2,6 @@ import {
   BsSpotify,
   MdCoffee,
   FaDev,
-  // FaDiscord,
   AiOutlineTwitter,
   BsStackOverflow,
   BsSnapchat,
@@ -28,8 +27,6 @@ const Contact = () => {
         />
 
         <Icon icon={<FaDev />} url="https://dev.to/mrdanishsaleem" />
-
-        {/* <Icon icon={<FaDiscord />} url="#" /> */}
 
         <Icon
           icon={<BsStackOverflow />}

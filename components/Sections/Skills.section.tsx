@@ -53,11 +53,9 @@ const Skills = () => {
         ...more skills include <span className="text-white">HTML5</span>,{" "}
         <span className="text-white">CSS3</span>,{" "}
         <span className="text-white">WordPress</span>,{" "}
-        <span className="text-white">TypeScript</span>,{" "}
-        <span className="text-white">NextJS</span>,{" "}
-        <span className="text-white">Automation</span>,{" "}
-        <span className="text-white">Databases</span>,{" "}
-        <span className="text-white">APIs</span>{" "}
+        <span className="text-white">Selenium</span>,{" "}
+        <span className="text-white">SQL</span>,{" "}
+        <span className="text-white">Windows</span>{" "}
       </p>
     </div>
   );
