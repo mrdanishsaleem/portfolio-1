@@ -27,8 +27,8 @@ const Projects: React.FC = () => {
             rel="noopener noreferrer"
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
-              <p className="text-xl font-semibold">NWEBIZ</p>
-              <p>A software solution provider for you business</p>
+              <p className="text-xl font-semibold">NEWBIZ</p>
+              <p>A Software Solution provider Company</p>
             </div>
           </a>
         </Link>
@@ -41,7 +41,7 @@ const Projects: React.FC = () => {
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
               <p className="text-xl font-semibold">Danish Saleem</p>
-              <p>A Terminal Style Portfolio Website!</p>
+              <p>Terminal Style Portfolio Website</p>
             </div>
           </a>
         </Link>
