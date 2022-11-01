@@ -1,11 +1,11 @@
 import {
-  BsSpotify,
   MdCoffee,
-  FaDev,
+  FaLinkedin,
   AiOutlineTwitter,
   BsStackOverflow,
   BsSnapchat,
   BsGoogle,
+
 } from "../Misc/Icons.collection";
 
 import { Icon } from "../Misc/Icon.component";
@@ -26,7 +26,7 @@ const Contact = () => {
           url="https://twitter.com/MrDanishSaleem"
         />
 
-        <Icon icon={<FaDev />} url="https://dev.to/mrdanishsaleem" />
+        <Icon icon={<FaLinkedin />} url="https://www.linkedin.com/in/MrDanishSaleem/" />
 
         <Icon
           icon={<BsStackOverflow />}

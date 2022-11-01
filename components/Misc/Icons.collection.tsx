@@ -8,7 +8,7 @@ import {
 import { MdCoffee } from "react-icons/md";
 import { AiOutlineTwitter, AiOutlineGithub } from "react-icons/ai";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import { FaDiscord, FaDev } from "react-icons/fa";
+import { FaDiscord, FaLinkedin } from "react-icons/fa";
 import { VscGithubAlt } from "react-icons/vsc";
 
 export {
@@ -18,7 +18,7 @@ export {
   AiOutlineGithub,
   HiOutlineArrowNarrowRight,
   BsArrowRightShort,
-  FaDev,
+  FaLinkedin,
   VscGithubAlt,
   BsStackOverflow,
   BsSnapchat,
