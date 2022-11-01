@@ -13,12 +13,11 @@ const About = () => {
         </p>
 
         <p className="mt-4 text-gray-400">
-          I have experience working for the FinTech, Health, & Education <br/> sectors as a Software Quality Assurance Engineer.
+          I've worked as a SQA Engineer, <br/> for the FinTech, Health and Eduction industries.
           <br />
           <br />
-          Recently, I decided to learn full stack development
+          Recently, I decided to switch my career from SQA Engineer to Software Engineer and started full stack development
           <br />
-          and started my front-end journey.
         </p>
 
         <Link href="https://dev.to/mrdanishsaleem/" passHref>
