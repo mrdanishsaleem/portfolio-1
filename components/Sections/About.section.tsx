@@ -15,9 +15,8 @@ const About = () => {
         <p className="mt-4 text-gray-400">
           I have worked as a SQA Engineer, <br/> for the FinTech, Health and Eduction industries.
           <br />
-          <br />
-          Recently, I decided to switch my career from SQA Engineer to Software Engineer and started full stack development
-          <br />
+          I recently made the decision to change careers from SQA Engineer to Software Engineer
+          <br /> and began full stack development.
         </p>
 
         <Link href="https://dev.to/mrdanishsaleem/" passHref>
