@@ -46,14 +46,15 @@ const Projects: React.FC = () => {
           </a>
         </Link>
 
+        <Link href="https://exploredeworld.vercel.app/" passHref>
         <a
             className="h-[7rem] w-[14rem] cursor-pointer rounded-lg bg-gradient-to-r from-[#D8B4FE] to-[#818CF8] p-1 text-white duration-100 hover:scale-105"
             target="_blank"
             rel="noopener noreferrer"
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
-              <p className="text-xl font-semibold">Explore de World</p>
-              <p>Explore the World!</p>
+              <p className="text-xl font-semibold">Explore the World</p>
+              <p>A website to explore World!</p>
             </div>
           </a>
         </Link>
