@@ -13,7 +13,7 @@ const About = () => {
         </p>
 
         <p className="mt-4 text-gray-400">
-          I have experience working for the FinTech, Health, & Education <br/> sectors as a SQA Engineer.
+          I have experience working for the FinTech, Health, & Education <br/> sectors as a Software Quality Assurance Engineer.
           <br />
           <br />
           Recently, I decided to learn full stack development
