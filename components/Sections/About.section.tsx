@@ -9,7 +9,7 @@ const About = () => {
       <div>
         <p className="text-3xl font-bold text-white">Hi, I am Danish Saleem</p>
         <p className="mt-1 text-lg text-gray-300">
-          Software Engineer, Tech Content Creator & Night Owl
+          A Software Engineer and former SQA Engineer
         </p>
 
         <p className="mt-4 text-gray-400">
