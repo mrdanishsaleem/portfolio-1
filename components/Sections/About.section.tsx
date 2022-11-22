@@ -13,14 +13,8 @@ const About = () => {
         </p>
 
         <p className="mt-4 text-gray-400">
-          I have worked as a SQA Engineer, <br/> for the FinTech, Health and Eduction industries.
+          I have worked as a Software Engineer, <br/> for the FinTech, Health and Eduction industries.
           <br />
-          <br />
-          I recently made the decision to change careers
-          <br />
-          from SQA Engineer to Software Engineer
-          <br />
-          and began full stack development.
         </p>
 
         <Link href="https://dev.to/mrdanishsaleem/" passHref>
