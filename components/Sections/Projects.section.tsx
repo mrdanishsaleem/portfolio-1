@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
             rel="noopener noreferrer"
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
-              <p className="text-xl font-semibold">NEWBIZ</p>
+              <p className="text-xl font-semibold">Newbiz</p>
               <p>A Software Solution provider Company</p>
             </div>
           </a>
@@ -40,8 +40,8 @@ const Projects: React.FC = () => {
             rel="noopener noreferrer"
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
-              <p className="text-xl font-semibold">Danish Saleem</p>
-              <p>Terminal Style Portfolio Website</p>
+              <p className="text-xl font-semibold">Terminal Style</p>
+              <p>A Portfolio Website</p>
             </div>
           </a>
         </Link>
@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
             rel="noopener noreferrer"
           >
             <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-primary px-2 text-center font-medium">
-              <p className="text-xl font-semibold">Explore the World</p>
+              <p className="text-xl font-semibold">Explore de World</p>
               <p>A website to explore World!</p>
             </div>
           </a>
